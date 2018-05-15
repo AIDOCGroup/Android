@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.miao.demo.R;
+import me.aidoc.client.util.custom.LoopView;
 
 
 public class StringPickerDialog extends Dialog {
