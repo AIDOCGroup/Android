@@ -1036,4 +1036,22 @@ public class DeviceActivity extends AppCompatActivity implements View.OnClickLis
     private void clearLog(){
         log = "";
     }
+
+    @Override
+    public void onWidgetClick(View view) {
+        switch (view.getId()) {
+            case R.id.btn_shutdown:
+                DeviceUtils.shutdown();
+                break;
+            case R.id.btn_reboot:
+                DeviceUtils.reboot();
+                break;
+            case R.id.btn_reboot_to_recovery:
+                DeviceUtils.reboot2Recovery();
+                break;
+            case R.id.btn_reboot_to_bootloader:
+                DeviceUtils.reboot2Bootloader();
+                break;
+        }
+    }
 }
