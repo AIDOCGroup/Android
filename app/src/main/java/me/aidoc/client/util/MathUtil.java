@@ -7,10 +7,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import me.aidoc.client.base.MyApplication;
 import me.aidoc.client.R;
 
 
+/**
+ * @author quchao
+ * @date 2018/07/03
+ */
 public class MathUtil {
 
     //出生日期字符串转化成Date对象

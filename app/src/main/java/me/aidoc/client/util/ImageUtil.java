@@ -4,7 +4,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import me.aidoc.client.base.MyApplication;
+
 import me.aidoc.client.util.custom.GlideRoundTransform;
 
 import jp.wasabeef.glide.transformations.BlurTransformation;
